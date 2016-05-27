@@ -2,9 +2,8 @@
 
 **RiboPaint** is utility toolbox for making publication-quality secondary structure diagrams in *MATLAB*. It paints chemical mapping reactivity values onto a diagram. For a quick preview:
 
-[![Vectorized Figure plus Final](/repos/ribopaint/res/pfl_clr_plus.png "Vectorized Figure plus Final"){: .half}](/repos/ribopaint/res/pfl_clr_plus.png)
-[![Vectorized Figure diff Final](/repos/ribopaint/res/pfl_clr_diff.png "Vectorized Figure diff Final"){: .half}](/repos/ribopaint/res/pfl_clr_diff.png)
-{: .center}
+![Vectorized Figure diff Final](https://raw.github.com/ribokit/RiboPaint/master/Examples/pfl_clr_diff.png)
+![Vectorized Figure plus Final](https://raw.github.com/ribokit/RiboPaint/master/Examples/pfl_clr_plus.png)
 
 ## Installation
 
