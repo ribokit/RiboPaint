@@ -21,7 +21,7 @@ if ~exist('is_round', 'var') || isempty(is_round); is_round = 0; end;
 if ~exist('JUST_PLOT', 'var') || isempty(JUST_PLOT); JUST_PLOT = 0; end
 
 figure(1); subplot(1,1,1); hold off; image(imagex); hold on;
-[xsize, ysize, zsize] = size(imagex);
+[xsize, ysize, ~] = size(imagex);
 axis([0 ysize 0 xsize]); zoomedin = 0;
 figure_full_screen(); axis equal;
 set(gcf, 'PaperPositionMode', 'auto', 'color', 'white', 'pointer', 'fullcross');
@@ -78,7 +78,7 @@ while (stop_pick < 1);
             count = count + 1;
             title(['next: ', num2str(count+offset)]);
         case 2;
-            [dummy, erasesquare] = min((residue_locations(1, :) - xpick) .^ 2 + (residue_locations(2, :) - ypick) .^ 2);
+            [~, erasesquare] = min((residue_locations(1, :) - xpick) .^ 2 + (residue_locations(2, :) - ypick) .^ 2);
             if (erasesquare > 0);
                 set(h(erasesquare), 'visible', 'off');
                 title(['Replace Pick ', num2str(erasesquare+offset), ' Now']);
