@@ -13,7 +13,7 @@ function imagex_color = color_legend(imagex, color_profile, square_width, orient
 % =====
 %   imagex             Required        Provides the [N x N x 3] RGB image read from file with
 %                                       imread command.
-%   colof_profile      Optional        Provides the coloring scheme and ranges. Default is 
+%   color_profile      Optional        Provides the coloring scheme and ranges. Default is 
 %                                       rainbow, offset 0, saturation values are average +/-
 %                                       3 standard deviation.
 %   square_width       Optional        Provides the size of boxes. Default is 24. Serves as

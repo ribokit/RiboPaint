@@ -40,6 +40,7 @@ imagex_text = imagex;
 lbl = double(rasterize_text(txt, ft_sz, clr, ft));
 
 % add to position
+pos = ceil( pos );
 xbins = (pos(2) + 1):(pos(2) + size(lbl, 1));
 ybins = (pos(1) + 1):(pos(1) + size(lbl, 2));
 imagex_text(xbins, ybins, :) = lbl;
