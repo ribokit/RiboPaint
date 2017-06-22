@@ -7,7 +7,7 @@
 
 ## Installation
 
-**RiboPaint** does **NOT** require [**HiTRACE**](https://gibhut.com/hitrace/HiTRACE). To install **RiboPaint**, simply:
+**RiboPaint** does **NOT** require [**HiTRACE**](https://gibhut.com/ribokit/HiTRACE). To install **RiboPaint**, simply:
 
 - From GitHub, download the zip or tar file of the repository and unpack; or 
 
@@ -26,7 +26,8 @@ Documentation is available at https://ribokit.github.io/RiboPaint/.
 
 Copyright &copy; of **RiboPaint** _Source Code_ is described in [LICENSE.md](https://github.com/ribokit/RiboPaint/blob/master/LICENSE.md).
 
-<br/>
+<hr/>
+
 Developed by **Das lab**, _Leland Stanford Junior University_.
-<br/>
-README by [**t47**](http://t47.io/), *May 2016*.
+
+README by [**t47**](https://t47.io/), *May 2016*.
